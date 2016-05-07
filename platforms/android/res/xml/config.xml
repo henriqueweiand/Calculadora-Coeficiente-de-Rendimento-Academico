@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="br.com.weride.calculadora" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <preference name="loglevel" value="DEBUG" />
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <icon density="ldpi" src="www/img/android/mipmap-ldpi/ic_launcher.png" />
+    <icon density="mdpi" src="www/img/android/mipmap-mdpi/ic_launcher.png" />
+    <icon density="hdpi" src="www/img/android/mipmap-hdpi/ic_launcher.png" />
+    <icon density="xhdpi" src="www/img/android/mipmap-xhdpi/ic_launcher.png" />
+    <icon density="xxhdpi" src="www/img/android/mipmap-xxhdpi/ic_launcher.png" />
+    <icon density="xxxhdpi" src="www/img/android/mipmap-xxxhdpi/ic_launcher.png" />
+    <allow-intent href="market:*" />
+    <name>Calc. Coeficiente de Rendimento Academico</name>
+    <description>
+        Calcule de maneira facil o coeficiente de rendimento academico
+    </description>
+    <author email="contato@weride.com" href="http://weride.com.br">
+        WeRide Agencia Digital
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
