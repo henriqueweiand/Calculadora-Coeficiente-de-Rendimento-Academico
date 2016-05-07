@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <title>Calc. Coeficiente de Rendimento Acadêmico</title>
+
+        <link rel="stylesheet" href="css/framework7.material.min.css">
+        <link rel="stylesheet" href="css/framework7.material.colors.min.css">
+    </head>
+    <body>
+       
+        <div class="views">
+
+          <div class="view view-main">
+
+            <div class="pages navbar-fixed toolbar-fixed">
+              
+                <div data-page="home" class="page" style="background: #F6F7F8">
+
+                    <div class="navbar">
+                        <div class="navbar-inner">
+                            <div class="center">Calc. Coeficiente de rendimento Acadêmico</div>
+                        </div>
+                    </div>
+
+                    <div class="toolbar">
+                        <div class="toolbar-inner">
+                            <a href="#" class="link" onclick="location.reload()">Novo Cálculo</a>
+                            <a href="#" class="link" name="btn-resultado">Cálcular Resultado</a>
+                        </div>
+                    </div>
+
+                    <div class="page-content">
+                        <div class="content-block">
+
+                            <div class="card no">
+                                <div class="card-content">
+                                    <div class="card-content-inner">
+
+                                        <div class="list-block inputs-list">
+
+                                            <form name="formCR">
+                                                <ul>
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">
+                                                                    Disciplina <small>(Opcional)</small>
+                                                                </div>
+                                                                <div class="item-input item-input-field">
+                                                                    <input type="text" name="inpNome" placeholder="Programação I">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">
+                                                                    Carga horaria
+                                                                </div>
+                                                                <div class="item-input item-input-field">
+                                                                    <input type="text" name="inpCh" placeholder="60">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                    <li>
+                                                        <div class="item-content">
+                                                            <div class="item-inner">
+                                                                <div class="item-title label">
+                                                                    Nota
+                                                                </div>
+                                                                <div class="item-input item-input-field">
+                                                                    <input type="text" name="inpNota" placeholder="8.5">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </li>
+
+                                                </ul>
+                                            </form>
+
+                                            <p>
+                                                <a href="#" class="button active" name="btn-adicionar">
+                                                    Adicionar
+                                                </a>
+                                            </p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="cards"></div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/jquery-2.2.3.min.js"></script>
+        <script type="text/javascript" src="js/framework7.min.js"></script>
+        <script type="text/javascript" src="js/app.js"></script>
+
+    </body>
+</html> 
